@@ -77,9 +77,7 @@ require('/modules/projects/view.php');
 <div class="col-md-6 proj">
 <p class="circle" style="background: <?=$result['color']?>;"></p>
 <a href="index.php?mod=sort_project?id=<?=$result['id'];?>"><?php echo $result['title'];?></a>
-<div style="float: right;">
-	<?php echo $result['taskCount'];?>
-</div>
+
 </div>
 <?php if (!isset($_SESSION['login']) && empty($_SESSION['login'])) {
  } else {?>
