@@ -52,7 +52,7 @@
  </div>
 
 </li>
-<?php echo '<hr>';?>
+<br>
 <br>
 <?php endforeach; ?>
 <?php endif; ?> 
