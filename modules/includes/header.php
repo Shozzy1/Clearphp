@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 require 'connect.php';
 require('/modules/tasks/view.php');
@@ -118,8 +118,7 @@ require('/modules/projects/view.php');
 
 				</body>
 				<script type="text/javascript" src="assets/js/jquery.min.js" charset="UTF-8"></script>
-				
-				
+				<script type="text/javascript" src="assets/js/main.js" charset="UTF-8"></script>
 				<script type="text/javascript" src="assets/js/bootstrap-datetimepicker.min.js" charset="UTF-8"></script>
 
 </html>
