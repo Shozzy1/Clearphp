@@ -1,6 +1,5 @@
-<?php
-    session_start();
-    require('/modules/includes/header.php');
+<?php session_start();
+require('/modules/includes/header.php');
 	require('/modules/tasks/view.php');
 ?>
 

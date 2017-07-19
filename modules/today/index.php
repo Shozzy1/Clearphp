@@ -1,8 +1,6 @@
-<?php
-    session_start();
-    require('/modules/includes/header.php');
-	require('/modules/tasks/view.php');
-
+<?php session_start();
+require('/modules/includes/header.php');
+require('/modules/tasks/view.php');
 ?>
 
 <div class="side">
@@ -56,9 +54,9 @@
 
                     
  </div>
-
+<br>
 </li>
-<?php echo '<hr>';?>
+
 <br>
 <?php endforeach; ?>
 <?php endif; ?> 
@@ -111,7 +109,7 @@
  </div>
 
 </li>
-<?php echo '<hr>';?>
+<br>
 <br>
 <?php endforeach; ?>
 <?php endif; ?> 
