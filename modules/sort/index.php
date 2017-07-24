@@ -2,9 +2,9 @@
     session_start();
     $id = $_GET['mod'];
     $id = explode("=", $get_mod);
-    require('/modules/includes/header.php');
-	  require('/modules/tasks/view.php');
-    require('/modules/includes/connect.php');
+    require('modules/includes/header.php');
+	  require('modules/tasks/view.php');
+    require('modules/includes/connect.php');
     $sql_sort = "SELECT tasks.*, projects.color, projects.title AS projectName FROM tasks LEFT JOIN projects ON projects.id = tasks.project_id WHERE DATE(end_date) >= '$date' AND status !=1 AND status !=2  AND project_id = '$id[1]' ORDER BY priority DESC";
     $sort= mysqli_query($conn, $sql_sort);
      $sql_sorts = "SELECT tasks.*, projects.color, projects.title AS projectName FROM tasks LEFT JOIN projects ON projects.id = tasks.project_id WHERE DATE(end_date) < '$date'  AND project_id = '$id[1]' OR status =1 AND project_id = '$id[1]'  ORDER BY priority DESC";

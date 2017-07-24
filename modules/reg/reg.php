@@ -1,6 +1,6 @@
 <?php
     session_start();
-    require_once('/modules/includes/header.php');
+    require_once('modules/includes/header.php');
 ?>
 
 <div style="margin-left:25%;padding:1px 16px;height:1000px;">

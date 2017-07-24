@@ -3,8 +3,8 @@
     $id = $_GET['mod'];
     $id = explode("=", $get_mod);
 
-					    require('/modules/includes/header.php');
-					    require('/modules/includes/connect.php');
+					    require('modules/includes/header.php');
+					    require('modules/includes/connect.php');
 					    $res = "SELECT * FROM tasks WHERE id='$id[1]'";
  						$res = mysqli_query($conn, $res);
 

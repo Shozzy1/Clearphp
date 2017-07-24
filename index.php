@@ -43,5 +43,5 @@ switch ($get_mod) {
 }
 
 
-include($_SERVER['DOCUMENT_ROOT'].'E:\OpenServer\OpenServer\domains\clearphp\modules\today');
+include($_SERVER['DOCUMENT_ROOT'].'clearphp\modules\today');
 ?>

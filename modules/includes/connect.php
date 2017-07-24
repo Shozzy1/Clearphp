@@ -3,7 +3,7 @@
 	$username = "root";
 	$password = "";
 	$dbname =  "clearphp";
-	$url = "http://clearphp/index.php?mod=today";
+	$url = "http://clearphp//index.php?mod=today";
 ///////////////////////////////////////////////////
 	$conn = new mysqli($servername, $username, $password, $dbname);
 

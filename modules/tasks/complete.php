@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	 require('/modules/includes/connect.php');
+	 require('modules/includes/connect.php');
 	$id = $_GET['mod'];
     $id = explode("=", $get_mod);
 

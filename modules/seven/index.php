@@ -1,7 +1,7 @@
 <?php
     session_start();
-    require('/modules/includes/header.php');
-	require('/modules/tasks/view.php');
+    require('modules/includes/header.php');
+	require('modules/tasks/view.php');
 ?>
 <div class="side">
  <h2>На 7 дней <span style=" font-size: 14px; color:#696969; font-weight: bold;"><?php echo date("l d M");?></span></h2>

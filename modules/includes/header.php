@@ -1,8 +1,8 @@
 ﻿<?php
 session_start();
 require 'connect.php';
-require('/modules/tasks/view.php');
-require('/modules/projects/view.php');
+require('modules/tasks/view.php');
+require('modules/projects/view.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -77,7 +77,7 @@ require('/modules/projects/view.php');
 <div class="col-md-6 proj">
 <p class="circle" style="background: <?=$result['color']?>;"></p>
 <a href="index.php?mod=sort_project?id=<?=$result['id'];?>"><?php echo $result['title'];?></a>
-<?php echo $result['taskCounter'];?>
+
 </div>
 <?php if (!isset($_SESSION['login']) && empty($_SESSION['login'])) {
  } else {?>

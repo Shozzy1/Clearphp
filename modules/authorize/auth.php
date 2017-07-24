@@ -1,6 +1,6 @@
 <?php
     session_start();
-     require_once('/modules/includes/header.php');
+     require_once('modules/includes/header.php');
 ?>
 		<div id="page-wrapper">
 
@@ -16,7 +16,7 @@
 						<input style = "width:350px; height:30px;" type="password" name="passwords" maxlength="30" required><br>
 					
 						<button class="btn btn-success" type="submit">Войти</button>
-						<input type="button" value="Отмена" class="btn btn-primary" onClick='location.href="http://lab5/index.php?mod=main"'>
+						<input type="button" value="Отмена" class="btn btn-primary" onClick='location.href="http://clearphp/index.php?mod=today"'>
 						
 						
 				

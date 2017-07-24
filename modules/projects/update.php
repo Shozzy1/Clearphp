@@ -8,8 +8,8 @@
 
 			<!-- Header -->
 					<?php
-					    require('/modules/includes/header.php');
-					    require('/modules/includes/connect.php');
+					    require('modules/includes/header.php');
+					    require('modules/includes/connect.php');
 					    $res = "SELECT * FROM projects WHERE id='$id[1]'";
  						$res = mysqli_query($conn, $res);
 
@@ -30,7 +30,7 @@
 <?php endif; ?> 
 
 						<button class="btn btn-primary" type="submit">Обновить</button>
-						<input type="button" value="Отмена" class="btn" onClick='location.href="http://clearphp/index.php?mod=today"'>
+						<input type="button" value="Отмена" class="btn" onClick='location.href="http://clearphp.hol.es/index.php?mod=today"'>
 						
 						
 			
